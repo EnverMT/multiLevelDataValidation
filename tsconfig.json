@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "ES2021"
+        ],
+        "target":"ES2021",
+        "experimentalDecorators": true,
+        "strict": true,
+        "outDir": "./",
+        "skipLibCheck": true,
+        "strictPropertyInitialization": false,        
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}
