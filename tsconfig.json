@@ -6,7 +6,7 @@
         "target":"ES2021",
         "experimentalDecorators": true,
         "strict": true,
-        "outDir": "./",
+        "outDir": "./build",
         "skipLibCheck": true,
         "strictPropertyInitialization": false,        
     },
