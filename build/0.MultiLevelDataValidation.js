@@ -1,5 +1,5 @@
 "use strict";
-class MultiLevelCategory {
+class MultiLevelDataValidation {
     constructor(active_sheet_name, active_range, category_sheet_name, category_range, show_toast_message = true) {
         this.config = {
             ACTIVE_SHEET_NAME: active_sheet_name,
