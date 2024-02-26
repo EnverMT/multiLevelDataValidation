@@ -5,6 +5,7 @@ This code allow you to set data validation rules which depend on cell values. De
 ## How to use:
 
 1. Copy content of `./build/*.js` folder to your Google Sheet App script.
+2. Change file extension from `*.js` to `*.gs`
 2. Edit `1.Code.gs` file to configure for you desire.
 
 
@@ -23,7 +24,8 @@ This code allow you to set data validation rules which depend on cell values. De
 
 1. Fork and clone this repository
 2. Configure your `scriptId` and `rootDir` in `.clasp.json` file. 
-2. After making changes compile `src/*.ts` files to folder `build/` with command
+3. Install node modules `npm install --dev` 
+4. After making changes compile `src/*.ts` files to folder `build/` with command
 ```tsc```
-3. Push changes to your Google Sheet 
+5. Push changes to your Google Sheet 
 ```clasp push```
