@@ -1,4 +1,4 @@
-class MultiLevelCategory {
+class MultiLevelDataValidation {
   constructor(active_sheet_name: string, active_range: string, category_sheet_name: string, category_range: string, show_toast_message: boolean = true) {
     this.config = {
       ACTIVE_SHEET_NAME: active_sheet_name,
