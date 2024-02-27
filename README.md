@@ -29,3 +29,6 @@ This code allow you to set data validation rules which depend on cell values. De
 ```tsc```
 5. Push changes to your Google Sheet 
 ```clasp push```
+
+### Link to test spreadsheet
+- `https://docs.google.com/spreadsheets/d/1ySZWzF3g9BWo6_MLU7dafzFZoC1VJ8yjaBg8oQgSFHc/edit?usp=sharing`
