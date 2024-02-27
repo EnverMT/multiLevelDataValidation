@@ -14,21 +14,34 @@ This code allow you to set data validation rules which depend on cell values. De
 ### Requirements
 - Install [NodeJS](https://nodejs.org/en)
 - Install [Clasp](https://github.com/google/clasp) 
-```npm install -g @google/clasp```
+```
+npm install -g @google/clasp
+```
 - Login to Clasp and give required permissions
-```clasp login```
-- Install Typescript https://github.com/google/clasp/blob/master/docs/typescript.md
-```npm i -S @types/google-apps-script``` 
+```
+clasp login
+```
+- Install [Typescript](https://github.com/google/clasp/blob/master/docs/typescript.md)
+```
+npm i -S @types/google-apps-script
+``` 
 
 ### Code
 
 1. Fork and clone this repository
 2. Configure your `scriptId` and `rootDir` in `.clasp.json` file. 
-3. Install node modules `npm install --dev` 
+3. Install node modules 
+```
+npm install --dev
+``` 
 4. After making changes compile `src/*.ts` files to folder `build/` with command
-```tsc```
+```
+tsc --watch
+```
 5. Push changes to your Google Sheet 
-```clasp push```
+```
+clasp push -w
+```
 
 ### Link to test spreadsheet
-- `https://docs.google.com/spreadsheets/d/1ySZWzF3g9BWo6_MLU7dafzFZoC1VJ8yjaBg8oQgSFHc/edit?usp=sharing`
+- Link to [Spreadsheet](https://docs.google.com/spreadsheets/d/1ySZWzF3g9BWo6_MLU7dafzFZoC1VJ8yjaBg8oQgSFHc/edit?usp=sharing)
